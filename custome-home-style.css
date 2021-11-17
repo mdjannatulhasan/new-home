@@ -82,9 +82,21 @@ header p{
 .custom-btn:hover{
     background-color: #01785A;
 }
+
+
 .c-locations .row{
     margin: 0;
+    font-family: Rubik;
 }
 .c-locations .middle{
     background-image: url('images/back-locations-box.jpg');
+    padding: 50px 20px;
+    border-radius: 8px;
+    margin-top: -150px;
+}
+.c-locations p{
+    max-width: 700px;
+}
+.btns-group .btn{
+    back
 }
