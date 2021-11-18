@@ -134,13 +134,41 @@ header p{
 }
 footer{
     background: #A5102E;
+    padding: 60px 20px 20px 20px ;
 }
 footer ul li a {
     color: #ffffff;
     font-family: Rubik;
     text-transform: uppercase;
     font-weight: 500;
+    margin: 15px;
+}
+footer ul li{
+
+}
+footer .author_credits{
+    padding-top: 50px;
 }
 footer .author_credits a{
     color: #ffffff;
+}
+
+
+@media only screen and (max-width:768px){
+    
+    .middle .nav-tabs a{
+        margin: 10px !important;
+        
+    }
+    .middle .card{
+        flex-direction: column !important;
+    }
+    .middle .card img{
+        max-width: 100% !important;
+    }
+}
+@media only screen and (max-width:320px){
+    h1{
+        font-size: 30px !important;
+    }
 }
