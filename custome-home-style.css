@@ -166,9 +166,18 @@ footer .author_credits a{
     .middle .card img{
         max-width: 100% !important;
     }
+    footer ul{
+        padding: 0;
+    }
 }
 @media only screen and (max-width:320px){
     h1{
-        font-size: 30px !important;
+        font-size: 40px !important;
+    }
+    .subheader{
+        font-size: 24px !important;
+    }
+    footer ul li a {
+        margin: 0;
     }
 }
