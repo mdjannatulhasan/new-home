@@ -132,6 +132,16 @@ header p{
 .card img{
     max-width: 300px
 }
+
+.pizza-crust{
+    margin-top: 80px;
+    background-image: url('images/pizza-crust-back.jpg');
+    padding: 180px 20px 220px 20px;
+}
+.pizza-heart{
+    margin-top: -180px;
+}
+
 footer{
     background: #A5102E;
     padding: 60px 20px 20px 20px ;
