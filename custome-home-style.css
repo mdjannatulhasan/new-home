@@ -4,73 +4,75 @@
     font-weight: 400;
     src: local('Tiza'), url('tiza.woff') format('woff');
 }
-p,span,b{
+.custom-home p,.custom-home span,.custom-home b{
     font-family: 'Rubik', sans-serif;
 }
-.special-header{
+.custom-home .special-header{
     color: #ffffff;
     font-family: 'Tiza', sans-serif !important;
 }
 
-h1{
+.custom-home h1{
     font-size: 68px;
     line-height: 1.1;
     text-transform: uppercase;
 }
-h3{
+
+.custom-home h3{
     font-size: 23px;
 }
-header{
+
+.custom-home header{
     background-image: url('images/back-legendary.jpg');
     background-size: cover;
     background-position: center center;
 }
-.subheader img{
+.custom-home .subheader img{
     width: auto;
     max-width: 100%;
     max-height: 110px;
     height: auto;
 }
-.container{
+.custom-home .container{
     max-width:1300px !important;
 }
-.subheader a{
+.custom-home .subheader a{
     color:#333333;
 }
-ul{
+.custom-home ul{
     list-style-type: none;
 }
-ul li a{
+.custom-home ul li a{
     padding: 10px 20px !important;
 }
-.navbar{
+.custom-home .navbar{
     background-color: #BA0000;
     border-radius: 8px;
 }
-.navbar ul li a{
+.custom-home .navbar ul li a{
     color: #ffffff !important;
     font-family: Rubik;
     text-transform: uppercase;
     font-weight: 500;
 }
-.dropdown-menu a.dropdown-item{
+.custom-home .dropdown-menu a.dropdown-item{
     color:#333333 !important;
 }
-.nav-container{
+.custom-home .nav-container{
     margin-top: 50px;
     margin-bottom: -32px;
 }
 
-header{
+.custom-home header{
     padding: 200px 20px 150px 20px;
 }
-header p{
+.custom-home header p{
     margin: 30px 0;
     font-size: 20px;
     max-width: 800px;
 }
 
-.custom-btn{
+.custom-home .custom-btn{
     border-radius: 50px;
     background-color: #BA0000;
     color: #FFFFFF;
@@ -79,33 +81,33 @@ header p{
     font-weight: 700;
     text-transform: uppercase;
 }
-.custom-btn:hover{
+.custom-home .custom-btn:hover{
     background-color: #01785A;
     color: #ffffff;
 }
 
 
-.c-locations .row{
+.custom-home .c-locations .row{
     margin: 0;
     font-family: Rubik;
 }
-.c-locations .middle{
+.custom-home .c-locations .middle{
     background-image: url('images/back-locations-box.jpg');
     padding: 70px 20px;
     border-radius: 8px;
     margin-top: -70px;
 }
-.c-locations p{
+.custom-home .c-locations p{
     max-width: 700px;
 }
-.btns-group .btn{
+.custom-home .btns-group .btn{
     
 }
-.c-locations .nav-tabs{
+.custom-home .c-locations .nav-tabs{
     border:none;
 
 }
-.c-locations .nav-tabs .nav-item{
+.custom-home .c-locations .nav-tabs .nav-item{
     border-radius: 50px;
     background-color: #BA0000;
     color: #FFFFFF;
@@ -115,10 +117,10 @@ header p{
     margin:30px 20px;
     border:none;
 }
-.c-locations .nav-tabs .active{
+.custom-home .c-locations .nav-tabs .active{
     background-color: #01785A;
 }
-.card{
+.custom-home .card{
     border-radius: 8px;
     margin-top: 20px;
     display: flex !important;
@@ -129,65 +131,65 @@ header p{
     overflow: hidden !important;
     text-align: left;
 }
-.card img{
+.custom-home .card img{
     max-width: 300px
 }
 
-.pizza-crust{
+.custom-home .pizza-crust{
     margin-top: 80px;
     background-image: url('images/pizza-crust-back.jpg');
     padding: 180px 20px 220px 20px;
 }
-.pizza-heart{
+.custom-home .pizza-heart{
     margin-top: -210px;
 }
 
-footer{
+.custom-home footer{
     background: #A5102E;
     padding: 60px 20px 20px 20px ;
 }
-footer ul li a {
+.custom-home footer ul li a {
     color: #ffffff;
     font-family: Rubik;
     text-transform: uppercase;
     font-weight: 500;
     margin: 15px;
 }
-footer ul li{
+.custom-home footer ul li{
 
 }
-footer .author_credits{
+.custom-home footer .author_credits{
     padding-top: 50px;
 }
-footer .author_credits a{
+.custom-home footer .author_credits a{
     color: #ffffff;
 }
 
 
 @media only screen and (max-width:768px){
     
-    .middle .nav-tabs a{
+    .custom-home .middle .nav-tabs a{
         margin: 10px !important;
         
     }
-    .middle .card{
+    .custom-home .middle .card{
         flex-direction: column !important;
     }
-    .middle .card img{
+    .custom-home .middle .card img{
         max-width: 100% !important;
     }
-    footer ul{
+    .custom-home footer ul{
         padding: 0;
     }
 }
 @media only screen and (max-width:320px){
-    h1{
+    .custom-home h1{
         font-size: 40px !important;
     }
-    .subheader{
+    .custom-home .subheader{
         font-size: 24px !important;
     }
-    footer ul li a {
+    .custom-home footer ul li a {
         margin: 0;
     }
 }
